@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savor & Spice | Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">🍽️ Savor & Spice</a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="section-title">
+            <h2>Photo Gallery</h2>
+            <p>Explore our beautiful restaurant and delicious dishes</p>
+        </div>
+        <div class="grid-3">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Dining Area">
+                <div class="card-content">
+                    <h3>Dining Area</h3>
+                    <p>Our elegant main dining room.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555939352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Kitchen">
+                <div class="card-content">
+                    <h3>The Kitchen</h3>
+                    <p>Where the magic happens.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Bar">
+                <div class="card-content">
+                    <h3>Bar Area</h3>
+                    <p>Wide selection of wines and spirits.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Food">
+                <div class="card-content">
+                    <h3>Signature Dishes</h3>
+                    <p>Plated with precision and passion.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Private Room">
+                <div class="card-content">
+                    <h3>Private Dining</h3>
+                    <p>Perfect for intimate gatherings.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Outdoor">
+                <div class="card-content">
+                    <h3>Outdoor Patio</h3>
+                    <p>Enjoy your meal under the stars.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Chef">
+                <div class="card-content">
+                    <h3>Our Chefs</h3>
+                    <p>Passionate about culinary excellence.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1550966871-3ed3c47e2ce2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Wine">
+                <div class="card-content">
+                    <h3>Wine Cellar</h3>
+                    <p>Curated selection of fine wines.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Event">
+                <div class="card-content">
+                    <h3>Special Events</h3>
+                    <p>Creating memorable moments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Savor & Spice Restaurant. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">📷</a>
+            <a href="#">📘</a>
+            <a href="#">🐦</a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
