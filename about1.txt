@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savor & Spice | About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">🍽️ Savor & Spice</a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="section-title">
+            <h2>Our Story</h2>
+            <p>From humble beginnings to culinary excellence</p>
+        </div>
+        <div class="grid-3" style="align-items: center;">
+            <div>
+                <img src="https://images.unsplash.com/photo-1556910103-1c02745a30bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" style="width:100%; border-radius:10px;" alt="Restaurant Interior">
+            </div>
+            <div>
+                <p>Founded in 2010, Savor & Spice began with a simple mission: to bring authentic flavors to the modern table. What started as a small family kitchen has grown into a beloved local institution.</p>
+                <br>
+                <p>We believe that food is more than just sustenance; it is a way to connect, celebrate, and create memories. Our chefs are passionate about innovation while respecting traditional techniques.</p>
+                <br>
+                <a href="contact.html" class="btn">Meet the Team</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Savor & Spice Restaurant. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">📷</a>
+            <a href="#">📘</a>
+            <a href="#">🐦</a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
