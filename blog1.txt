@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savor & Spice | Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="logo">🍽️ Savor & Spice</a>
+            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+            <ul id="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservations.html">Reservations</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="section-title">
+            <h2>Latest News & Recipes</h2>
+            <p>Stay updated with our culinary adventures and tips</p>
+        </div>
+        <div class="grid-3">
+            <!-- Blog Post 1 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1495521821757-a1efb6729352?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Recipe">
+                <div class="card-content">
+                    <h3>Top 5 Summer Recipes</h3>
+                    <p>Discover the freshest ingredients for your summer table with our chef's favorite light and refreshing dishes.</p>
+                    <a href="#" class="btn" style="padding: 5px 15px; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 2 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Chef Interview">
+                <div class="card-content">
+                    <h3>Meet Our Head Chef</h3>
+                    <p>An exclusive interview with Chef Marco about his journey, inspirations, and what makes our food special.</p>
+                    <a href="#" class="btn" style="padding: 5px 15px; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 3 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Event Recap">
+                <div class="card-content">
+                    <h3>Wine Tasting Recap</h3>
+                    <p>Highlights from last weekend's exclusive wine event. See photos and read about the pairings.</p>
+                    <a href="#" class="btn" style="padding: 5px 15px; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 4 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Sustainability">
+                <div class="card-content">
+                    <h3>Our Sustainability Journey</h3>
+                    <p>Learn how we are reducing waste and sourcing locally to support our community and the planet.</p>
+                    <a href="#" class="btn" style="padding: 5px 15px; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 5 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1556910103-1c02745a30bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="New Menu">
+                <div class="card-content">
+                    <h3>Introducing Our New Menu</h3>
+                    <p>We've added 10 new dishes to our menu! Check out the seasonal favorites available now.</p>
+                    <a href="#" class="btn" style="padding: 5px 15px; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+            <!-- Blog Post 6 -->
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Team">
+                <div class="card-content">
+                    <h3>Team Spotlight: Sarah</h3>
+                    <p>Meet our head sommelier and learn about her favorite wine regions and pairing tips.</p>
+                    <a href="#" class="btn" style="padding: 5px 15px; font-size: 0.9rem;">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Savor & Spice Restaurant. All rights reserved.</p>
+        <div class="social-links">
+            <a href="#">📷</a>
+            <a href="#">📘</a>
+            <a href="#">🐦</a>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            document.getElementById('nav-menu').classList.toggle('show');
+        }
+    </script>
+</body>
+</html>
